@@ -1,0 +1,5 @@
+configuration:  
+  projectName: bitmiweb_boot 운영(prod) 입니다.
+
+sample:
+  foo: 'this is test 입니다.'
