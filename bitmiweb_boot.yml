@@ -1,0 +1,5 @@
+configuration:  
+  projectName: bitmiweb_boot default 입니다.
+
+server:
+  port: 8080
