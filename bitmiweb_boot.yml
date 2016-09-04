@@ -9,13 +9,13 @@ message:
 
 ---
 spring:
-  profiles: dev1
+  profiles: dev
   
 configuration:  
-  projectName: bitmiweb_boot_dev
-
-server:
-  port: 8080
+  projectName: bitmiweb_boot-dev
   
+sample:
+  foo: 'this is test 입니다.'
+
 message:
-  greeting: bitmiweb_boot_dev 만나서 반갑습니다.!!!!
+  greeting: bitmiweb_boot-dev == 진짜 되네~ ㅋㅋㅋ 와우 진짜인가 봐요~ 안녕하세요? 김강수입니다. 만나서 반갑습니다.!!!!
