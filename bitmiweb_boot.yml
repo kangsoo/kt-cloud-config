@@ -9,7 +9,7 @@ message:
 
 ---
 spring:
-  profiles: development
+  profiles: dev
   
 configuration:  
   projectName: bitmiweb_boot_dev
