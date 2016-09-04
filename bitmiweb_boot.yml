@@ -15,7 +15,8 @@ configuration:
   projectName: bitmiweb_boot-dev
   
 sample:
-  foo: 'this is test 입니다.'
+  foo: 'this is dev-foo 입니다.'
+  bar: 'this is dev-bar 입니다.'
 
 message:
   greeting: bitmiweb_boot-dev == 진짜 되네~ ㅋㅋㅋ 와우 진짜인가 봐요~ 안녕하세요? 김강수입니다. 만나서 반갑습니다.!!!!
@@ -28,8 +29,7 @@ configuration:
   projectName: bitmiweb_boot-prod
   
 sample:
-  foo: 'this is test 입니다.'
-  bar: 'this is bar 입니다.'
+  foo: 'this is prod-foot 입니다.'
 
 message:
   greeting: bitmiweb_boot-prod == 진짜 되네~ ㅋㅋㅋ 와우 진짜인가 봐요~ 안녕하세요? 김강수입니다. 만나서 반갑습니다.!!!!
