@@ -20,7 +20,7 @@ configuration:
   projectName: bitmiweb_boot-dev
   
 sample:
-  foo: 'this is dev-foo 입니다. Refresh~ 가 되겠쥐?'
+  foo: ${SPRING_PROFILES_ACTIVE:dev}
   bar: 'this is dev-bar 입니다. 이건 내가 바꿨지ㅗㅇ~'
 
 message:
