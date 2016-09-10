@@ -45,4 +45,4 @@ message:
   locale: ko_KR
 
 nhic:
-  domain: "api.nhic.or.kr:1443"
+  domain: "ws.nhic.or.kr:1443"
