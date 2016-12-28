@@ -2,7 +2,7 @@ configuration:
   projectName: bitmiweb_boot
 
 server:
-  port: 8080
+  port: 8079
 
 sample:
   foo: 'this is foo 입니다.'
