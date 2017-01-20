@@ -29,6 +29,11 @@ message:
 
 nhic:
   domain: "ws.nhic.or.kr:1443"
+    
+cypto:
+  database:
+    properties: C:/bitmiweb_boot/bin/xecuredb/conf/xdsp_pool.properties  
+    
 ---
 spring:
   profiles: prod
@@ -46,3 +51,7 @@ message:
 
 nhic:
   domain: "ws.nhic.or.kr:1443"
+  
+cypto:
+  database:
+    properties: C:/bitmiweb_boot/bin/xecuredb/conf/xdsp_pool.properties  
