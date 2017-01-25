@@ -32,7 +32,7 @@ nhic:
     
 cypto:
   database:
-    properties: C:/bitmiweb_boot/bin/xecuredb/conf/xdsp_pool.properties  
+    properties: ~/bitmiwebserver/xecuredb/conf/xdsp_pool.properties  
     
 ---
 spring:
