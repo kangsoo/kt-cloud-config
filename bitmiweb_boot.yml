@@ -73,4 +73,4 @@ nhic:
   domain: http://ws.nhic.or.kr:1443/services/nhic?WSDL
   
 cypto:
-  properties: '~/bitmiwebserver/xecuredb/conf/xdsp_pool.properties'
+  properties: '/root/bitmiwebserver/xecuredb/conf/xdsp_pool.properties'
