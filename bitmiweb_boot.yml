@@ -25,14 +25,14 @@ sample:
 
 message:
   greeting: bitmiweb_boot-dev == 진짜 되네~ ㅋㅋㅋ 와우 진짜인가 봐요~ 안녕하세요? 김강수입니다. 만나서 반갑습니다.!!!!
-  locale: en_US
+  locale: ko_KR
 
 nhic:
   domain: "ws.nhic.or.kr:1443"
     
 cypto:
   database:
-    properties: ~/bitmiwebserver/xecuredb/conf/xdsp_pool.properties  
+    properties: C:/bitmiweb_boot/bin/xecuredb/conf/xdsp_pool.properties  
     
 ---
 spring:
