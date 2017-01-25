@@ -55,3 +55,25 @@ nhic:
 cypto:
   database:
     properties: C:/bitmiweb_boot/bin/xecuredb/conf/xdsp_pool.properties  
+
+---
+spring:
+  profiles: linux
+
+configuration:  
+  projectName: bitmiweb_boot-linux
+  
+sample:
+  foo: 'this is linux-foot 입니다.'
+  bar: 'this is linux-bar 입니다.'
+
+message:
+  greeting: bitmiweb_boot-linux == 진짜 되네~ ㅋㅋㅋ 와우 진짜인가 봐요~ 안녕하세요? 김강수입니다. 만나서 반갑습니다.!!!!
+  locale: ko_KR
+
+nhic:
+  domain: "ws.nhic.or.kr:1443"
+  
+cypto:
+  database:
+    properties: ~/bitmiwebserver/xecuredb/conf/xdsp_pool.properties  
