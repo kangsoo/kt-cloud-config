@@ -31,7 +31,7 @@ nhic:
   domain: "ws.nhic.or.kr:1443"
     
 cypto:
-  properties: 'C:\\bitmiweb_boot\\bin\\xecuredb\\conf\\xdsp_pool.properties'
+  properties: 'C:\bitmiweb_boot\bin\xecuredb\conf\xdsp_pool.properties'
     
 ---
 spring:
@@ -52,7 +52,7 @@ nhic:
   domain: "ws.nhic.or.kr:1443"
   
 cypto:
-  properties: 'C:\\bitmiweb_boot\\bin\\xecuredb\\conf\\xdsp_pool.properties'
+  properties: 'C:\bitmiweb_boot\bin\xecuredb\conf\xdsp_pool.properties'
 
 ---
 spring:
