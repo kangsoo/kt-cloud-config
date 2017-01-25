@@ -28,7 +28,7 @@ message:
   locale: ko_KR
 
 nhic:
-  domain: "ws.nhic.or.kr:1443"
+  domain: http://ws.nhic.or.kr:1443/services/nhic?WSDL
     
 cypto:
   properties: 'C:\bitmiweb_boot\bin\xecuredb\conf\xdsp_pool.properties'
@@ -49,7 +49,7 @@ message:
   locale: ko_KR
 
 nhic:
-  domain: "ws.nhic.or.kr:1443"
+  domain: http://ws.nhic.or.kr:1443/services/nhic?WSDL
   
 cypto:
   properties: 'C:\bitmiweb_boot\bin\xecuredb\conf\xdsp_pool.properties'
@@ -70,7 +70,7 @@ message:
   locale: ko_KR
 
 nhic:
-  domain: "ws.nhic.or.kr:1443"
+  domain: http://ws.nhic.or.kr:1443/services/nhic?WSDL
   
 cypto:
   properties: '~/bitmiwebserver/xecuredb/conf/xdsp_pool.properties'
