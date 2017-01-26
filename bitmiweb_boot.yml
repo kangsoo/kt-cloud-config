@@ -14,7 +14,7 @@ server:
     port: 8443
     key-store: classpath:bitmiweb.p12
     key-store-password: password
-    key-password: passwrod
+    key-password: password
     keyStoreType: PKCS12
     keyAlias: bitmiweb_boot
     tempFileName: bitmiweb
