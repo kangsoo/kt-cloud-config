@@ -13,8 +13,8 @@ server:
   ssl:
     port: 8443
     key-store: classpath:bitcomputer.pfx
-    key-store-password: bitcom1234
-    key-password: bitcom1234
+    key-store-password: "bitcom1234"
+    key-password: "bitcom1234"
     keyStoreType: PKCS12
     #keyAlias: bitmiweb_boot
     tempFileName: bitcomputer
