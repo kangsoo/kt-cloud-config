@@ -12,7 +12,7 @@ server:
 #====================================================================================
   ssl:
     port: 8443
-    key-store: bitcomputer.pfx
+    key-store: classpath:bitcomputer.pfx
     key-store-password: bitcom1234
     key-password: bitcom1234
     keyStoreType: PKCS12
