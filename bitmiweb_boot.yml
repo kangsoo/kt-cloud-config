@@ -12,14 +12,14 @@ server:
 #====================================================================================
   ssl:
     port: 8443
-    key-store: classpath:bitmiweb.p12
-    key-store-password: password
-    key-password: password
+    key-store: classpath:bitcomputer.pfx
+    key-store-password: bitcom1234
+    key-password: bitcom1234
     keyStoreType: PKCS12
-    keyAlias: bitmiweb_boot
-    tempFileName: bitmiweb
-    tempFileExt: .p12
-    fileName: bitmiweb.p12
+    #keyAlias: bitmiweb_boot
+    tempFileName: bitcomputer
+    tempFileExt: .pfx
+    fileName: bitcomputer.pfx
     #ciphers: ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA
     #protocol: TLS      
   http:
