@@ -8,6 +8,22 @@ server:
     timeout: 1800
   context-path: /bitmiweb_boot
 
+#====================================================================================
+# https: ssl 
+#====================================================================================
+server:
+  port: 8443
+    ssl:
+      key-store: classpath:bitcomputer.pfx
+      key-store-password: bitcom1234
+      key-password: bitcom1234
+      keyStoreType: PKCS12
+      keyAlias: bitmiweb_boot
+      #ciphers: ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA
+      #protocol: TLS      
+  http:
+    port: 8080
+
 # MULTIPART (MultipartProperties)
 spring:
   http:
