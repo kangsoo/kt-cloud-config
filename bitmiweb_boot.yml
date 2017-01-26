@@ -18,7 +18,7 @@ server:
     key-store-password: bitcom1234
     key-password: bitcom1234
     keyStoreType: PKCS12
-    keyAlias: bitmiweb_boot
+    #keyAlias: bitmiweb_boot
     tempFileName: bitcomputer
     tempFileExt: .pfx
     #ciphers: ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA
