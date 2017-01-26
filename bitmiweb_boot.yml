@@ -3,6 +3,17 @@ configuration:
 
 server:
   port: 8079
+  display-name: bitmiweb_boot
+  session:
+    timeout: 1800
+  context-path: /bitmiweb_boot
+
+# MULTIPART (MultipartProperties)
+spring:
+  http:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 20MB
 
 sample:
   foo: 'this is foo 입니다.'
