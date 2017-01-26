@@ -19,6 +19,7 @@ server:
     keyAlias: bitmiweb_boot
     tempFileName: bitmiweb
     tempFileExt: .p12
+    fileName: bitmiweb.p12
     #ciphers: ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA
     #protocol: TLS      
   http:
