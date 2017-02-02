@@ -31,6 +31,19 @@ spring:
     multipart:
       max-file-size: 10MB
       max-request-size: 20MB
+  datasource:
+    url: 'jdbc:log4jdbc:oracle:thin:@122.199.232.165:1521:BITMIHIS'
+    username: bitmi0000
+    password: bitmiora
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    tomcat:
+      url: 'jdbc:log4jdbc:oracle:thin:@122.199.232.165:1521:BITMIHIS'
+      username: bitmi0000
+      password: bitmiora
+      driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+      test-while-idle: true
+      test-on-borrow: true
+      validation-query: select 'NOT_SQL_LOG' from dual
 
 sample:
   foo: 'this is foo 입니다.'
