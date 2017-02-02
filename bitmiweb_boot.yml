@@ -106,16 +106,16 @@ cypto:
 spring:
   datasource:
     url: 'jdbc:log4jdbc:oracle:thin:@122.199.232.165:1521:BITMIHIS'
-    username:bitmi0002
-    password:bitmiora
+    username: bitmi0002
+    password: bitmiora
     driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
     tomcat:
       url: 'jdbc:log4jdbc:oracle:thin:@122.199.232.165:1521:BITMIHIS'
-      username:bitmi0002
-      password:bitmiora
-      driver-class-name:net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-      test-while-idle:true
-      test-on-borrow:true
+      username: bitmi0002
+      password: bitmiora
+      driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+      test-while-idle: true
+      test-on-borrow: true
       validation-query: select 'NOT_SQL_LOG' from dual
 
 ---
