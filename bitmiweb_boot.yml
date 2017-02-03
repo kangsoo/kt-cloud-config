@@ -5,8 +5,10 @@ server:
   port: 8079
   display-name: bitmiweb_boot
   session:
-    timeout: 1800
+    timeout: 0
+    cookie.max-age: 0
   context-path: /bitmiweb_boot
+  
 #====================================================================================
 # https: ssl 
 #====================================================================================
