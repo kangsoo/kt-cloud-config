@@ -2,7 +2,7 @@ configuration:
   projectName: bitmiweb_boot
 
 server:
-  port: 8079
+  port: 443
   display-name: bitmiweb_boot
   session:
     timeout: 0
