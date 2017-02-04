@@ -164,37 +164,3 @@ nhic:
   
 cypto:
   properties: '/root/bitmiwebserver/xecuredb/conf/xdsp_pool.properties'
-
----
-spring:
-  profiles: cloud
-  datasource:
-    url: 'jdbc:log4jdbc:oracle:thin:@122.199.232.165:1521:BITMIHIS'
-    username: bitmi0002
-    password: bitmiora
-    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-    tomcat:
-      url: 'jdbc:log4jdbc:oracle:thin:@122.199.232.165:1521:BITMIHIS'
-      username: bitmi0002
-      password: bitmiora
-      driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-      test-while-idle: true
-      test-on-borrow: true
-      validation-query: select 'NOT_SQL_LOG' from dual
-
-configuration:  
-  projectName: bitmiweb_boot-cloud
-  
-sample:
-  foo: 'this is cloud-foot 입니다.'
-  bar: 'this is cloud-bar 입니다.'
-
-message:
-  greeting: bitmiweb_boot-linux == 진짜 되네~ ㅋㅋㅋ 와우 진짜인가 봐요~ 안녕하세요? 김강수입니다. 만나서 반갑습니다.!!!!
-  locale: ko_KR
-
-nhic:
-  domain: http://ws.nhic.or.kr:1443/services/nhic?WSDL
-  
-cypto:
-  properties: '/root/bitmiwebserver/xecuredb/conf/xdsp_pool.properties'
