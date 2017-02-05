@@ -8,7 +8,7 @@ server:
     timeout: 0
     cookie.max-age: 0
   context-path: /bitmiweb_boot
-  
+
 #====================================================================================
 # https: ssl 
 #====================================================================================
@@ -46,6 +46,10 @@ spring:
       test-while-idle: true
       test-on-borrow: true
       validation-query: select 'NOT_SQL_LOG' from dual
+  redis:
+    host: 211.253.31.109
+    password: secret
+    port: 6379
 
 sample:
   foo: 'this is foo 입니다.'
