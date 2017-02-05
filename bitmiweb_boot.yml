@@ -50,6 +50,8 @@ spring:
     host: 211.253.31.109
     password: secret
     port: 6379
+  session:
+    store-type: redis
 
 sample:
   foo: 'this is foo 입니다.'
