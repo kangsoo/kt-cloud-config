@@ -2,30 +2,29 @@ configuration:
   projectName: bitmiweb_boot
 
 server:
-  port: 443
+  port: 8080
   display-name: bitmiweb_boot
   session:
     timeout: 0
     cookie.max-age: 0
   context-path: /bitmiweb_boot
-
 #====================================================================================
 # https: ssl 
 #====================================================================================
-  ssl:
-    port: 8443
-    key-store: classpath:bitcomputer.pfx
-    key-store-password: bitcom1234
-    key-password: bitcom1234
-    keyStoreType: PKCS12
-    #keyAlias: bitmiweb_boot
-    tempFileName: bitcomputer
-    tempFileExt: .pfx
-    fileName: bitcomputer.pfx
-    #ciphers: ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA
-    #protocol: TLS      
-  http:
-    port: 8080
+#  ssl:
+#    port: 8443
+#    key-store: classpath:bitcomputer.pfx
+#    key-store-password: bitcom1234
+#    key-password: bitcom1234
+#    keyStoreType: PKCS12
+#    #keyAlias: bitmiweb_boot
+#    tempFileName: bitcomputer
+#    tempFileExt: .pfx
+#    fileName: bitcomputer.pfx
+#    #ciphers: ECDHE_RSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA
+#    #protocol: TLS      
+#  http:
+#    port: 8080
 
 # MULTIPART (MultipartProperties)
 spring:
